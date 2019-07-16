@@ -1,12 +1,13 @@
+#! /usr/bin/env python3
 import json
 import time
 import sys
 from collections import Counter
-#! /usr/bin/env python3
-#SETUP
-from typing import List, Any, Union
+
 
 api_key = "" # Enter your own API key here!!
+
+
 valid_servers = ['euw1', 'na1', 'eun1', 'br1', 'la1', 'la2', 'tr1', 'jp1', 'kr','ru','oc1']
 try:
     import requests
